@@ -133,7 +133,6 @@ obj/%.o: src/%.cpp
 
 clean: rpm-clean
 	$(RM) -rf obj
-	$(RM) -f src/version.hpp
 	$(RM) -f "$(TARGET)" mount.mergerfs
 	$(FIND) . -name "*~" -delete
 
